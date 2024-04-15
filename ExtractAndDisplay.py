@@ -64,7 +64,7 @@ filename = 'clip.mp4'
 extractionQueue = queue.Queue()
 
 # extract the frames
-extractFrames(filename,extractionQueue, 72)
+extractFrames(filename,extractionQueue)
 
 # display the frames
 displayFrames(extractionQueue)
